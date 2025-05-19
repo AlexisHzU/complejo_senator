@@ -4,12 +4,14 @@
   "description": "complejo de hoteles senator",
   "main": "index.js",
   "devDependencies": {},
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js",
+    "dev": "nodemon index.js"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/AlexisHzU/complejo_senator.git"
+    "url": ""
   },
   "author": "AlexisHzU",
   "license": "ISC",
