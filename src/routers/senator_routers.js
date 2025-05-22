@@ -9,3 +9,4 @@ senator_router.get("/restaurante", enviar_html);
 senator_router.get("/restaurante/:restaurante/:nombre/:cantidad/:hora",enviar_reservacion);
 
 senator_router.get("/restaurante/ver/:restaurante/:hora", ver_reservaciones)
+
